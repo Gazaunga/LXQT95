@@ -1,0 +1,4 @@
+emacs --daemon
+xrandr --output VGA-1 --mode 1920x1080 --rate 60.0 &
+dunst &
+sh ~/.fehbg
