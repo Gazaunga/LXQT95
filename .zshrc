@@ -33,3 +33,5 @@ zstyle :compinstall filename '/home/gazbit/.zshrc'
 
 autoload -Uz compinit
 compinit
+
+alias Update="sudo apt-get check && sudo apt-get update && sudo apt-get autoremove --purge && sudo apt-get autoclean"
