@@ -2,3 +2,5 @@ emacs --daemon
 xrandr --output VGA-1 --mode 1920x1080 --rate 60.0 &
 dunst &
 sh ~/.fehbg
+xset -dpms & xset s noblank & xset s off &
+xautolock -time 20 -locker /home/gazbit/.lock/i3lock-wrapper &
