@@ -1,31 +1,20 @@
-echo "#┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
-echo "#┃░█▀▄░█▀█░▀█▀░█▀▀░▀█▀░█░░░█▀▀░█▀▀░┃"
-echo "#┃░█░█░█░█░░█░░█▀▀░░█░░█░░░█▀▀░▀▀█░┃"
-echo "#┃░▀▀░░▀▀▀░░▀░░▀░░░▀▀▀░▀▀▀░▀▀▀░▀▀▀░┃"
-echo "#┠━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫"
-echo "#┃░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░┃"
-echo "#┃░░ Install script for gazbit's ░░┃"
-echo "#┃░░ dotfiles.                   ░░┃"
-echo "#┃░░ Do not recommended to use.  ░░┃"
-echo "#┃░░ Basic setup:                ░░┃"
-echo "#┃░░ ./install.sh commons        ░░┃"
-echo "#┃░░ ./install.sh host_r5        ░░┃"
-echo "#┃░░ ./install.sh -h to get help ░░┃"
-echo "#┃░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░┃"
-echo "#┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
+echo "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
+echo "┃░█▀▄░█▀█░▀█▀░█▀▀░▀█▀░█░░░█▀▀░█▀▀░┃"
+echo "┃░█░█░█░█░░█░░█▀▀░░█░░█░░░█▀▀░▀▀█░┃"
+echo "┃░▀▀░░▀▀▀░░▀░░▀░░░▀▀▀░▀▀▀░▀▀▀░▀▀▀░┃"
+echo "┠━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┫"
+echo "┃░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░┃"
+echo "┃░░ Install script for gazbit's ░░┃"
+echo "┃░░ dotfiles.                   ░░┃"
+echo "┃░░ Do not recommended to use.  ░░┃"
+echo "┃░░ Basic setup:                ░░┃"
+echo "┃░░ ./install.sh commons        ░░┃"
+echo "┃░░ ./install.sh host_r5        ░░┃"
+echo "┃░░ ./install.sh -h to get help ░░┃"
+echo "┃░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░┃"
+echo "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
 
-echo "#┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
-echo "#┃ Annoying starting animation ┃"
-echo "#┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
+echo "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
+echo "┃ Annoying starting animation ┃"
+echo "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
 
-feh
-hsetroot
-smplayer
-i3lock
-imagemagick
-clang
-emacs
-dunst
-zsh
-mousepad
-libreoffice-still
