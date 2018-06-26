@@ -39,7 +39,7 @@ alias ll='ls -l'
 alias rm='rm -vr'
 alias cp='cp -R'
 alias ..='cd ..'
-alias history='builtin fc -l 1'
+alias lock="bash ~/.lock/i3lock-wrapper"
 alias load='xrdb -load ~/.Xresources'
 alias Update="sudo apt-get check && sudo apt-get update && sudo apt-get autoremove --purge && sudo apt-get autoclean"
 ################################
