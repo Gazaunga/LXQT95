@@ -18,3 +18,4 @@ echo "┏━━━━━━━━━━━━━━━━━━━━━━━�
 echo "┃ Annoying starting animation ┃"
 echo "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
 
+zypper in lxqt-about lxqt-common lxqt-config lxqt-globalkeys lxqt-notificationd lxqt-openssh-askpass lxqt-panel lxqt-policykit lxqt-powermanagement lxqt-qtplugin lxqt-runner lxqt-session openbox pcmanfm-qt qterminal
