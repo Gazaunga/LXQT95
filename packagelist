@@ -7,10 +7,10 @@ echo "┃░░░░░░░░░░░░░░░░░░░░░░░�
 echo "┃░░ Install script for gazbit's ░░┃"
 echo "┃░░ dotfiles.                   ░░┃"
 echo "┃░░ Do not recommended to use.  ░░┃"
-echo "┃░░ Basic setup:                ░░┃"
-echo "┃░░ ./install.sh commons        ░░┃"
-echo "┃░░ ./install.sh host_r5        ░░┃"
-echo "┃░░ ./install.sh -h to get help ░░┃"
+echo "┃░░                             ░░┃"
+echo "┃░░                             ░░┃"
+echo "┃░░                             ░░┃"
+echo "┃░░                             ░░┃"
 echo "┃░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░┃"
 echo "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
 
@@ -26,4 +26,4 @@ zypper info -t pattern lxqt
 sudo zypper in -t pattern lxqt
 
 # NEED TO LOOK UP
-# zathura notepadqq atom
+# zathura notepadqq atom falkon spotify libreoffice calculator
