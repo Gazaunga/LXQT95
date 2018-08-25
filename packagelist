@@ -1,3 +1,7 @@
+#!/bin/bash
+
+set -eux
+
 echo "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
 echo "┃░█▀▄░█▀█░▀█▀░█▀▀░▀█▀░█░░░█▀▀░█▀▀░┃"
 echo "┃░█░█░█░█░░█░░█▀▀░░█░░█░░░█▀▀░▀▀█░┃"
@@ -23,6 +27,19 @@ sudo zypper ar -cfp 90 http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_L
 # OR:
 #sudo zypper ar -p 1 -f -n packman http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.0/ packman
 
+sudo zypper update
+sudo zypper in git
+
+git config --global user.name "jeremyottley"
+git config --global user.email "jeremy.ottley@gmail.com"
+git config --global core.autocrlf input
+git config --global core.safecrlf true
+git clone https://github.com/jeremyottley/.cheatsheets.git ~/.cheatsheets
+git clone https://github.com/jeremyottley/bash-utils.git ~/.bash
+sudo curl https://raw.githubusercontent.com/thisredone/rb/master/rb -o /usr/local/bin/rb && sudo chmod +x /usr/local/bin/rb
+git clone https://github.com/jeremyottley/.pandoc.git ~/.pandoc
+git clone https://github.com/jeremyottley/Startpages.git ~/.startpages
+
 # base install only
 # sudo zypper in lxqt-about lxqt-common lxqt-config lxqt-globalkeys lxqt-notificationd lxqt-openssh-askpass lxqt-panel lxqt-policykit lxqt-powermanagement lxqt-qtplugin lxqt-runner lxqt-session openbox pcmanfm-qt qterminal
 
@@ -35,7 +52,7 @@ sudo zypper install x264 libx265-130 libx264-148 ffmpeg gstreamer-plugins-bad gs
 sudo systemctl enable tlp
 
 # NEED TO LOOK UP
-# zathura notepadqq atom falkon spotify libreoffice calculator i3lock clang gwenview feh viewnor dunst racket crystal vlc lightdm kitty
+# zathura notepadqq atom falkon spotify libreoffice calculator i3lock clang gwenview feh viewnor dunst racket crystal vlc lightdm kitty gitkraken
 
 # sudo cp -r /etc/systemd/system/i3lock.service /etc/systemd/system/
 # systemctl enable i3lock.service
