@@ -27,3 +27,6 @@ sudo zypper in -t pattern lxqt
 
 # NEED TO LOOK UP
 # zathura notepadqq atom falkon spotify libreoffice calculator i3lock clang gwenview feh viewnor
+
+# sudo cp -r /etc/systemd/system/i3lock.service /etc/systemd/system/
+# systemctl enable i3lock.service
