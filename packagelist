@@ -18,12 +18,21 @@ echo "┏━━━━━━━━━━━━━━━━━━━━━━━�
 echo "┃ Annoying starting animation ┃"
 echo "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
 
+# setup packman
+sudo zypper ar -cfp 90 http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.0/ packman
+# OR:
+#sudo zypper ar -p 1 -f -n packman http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Leap_15.0/ packman
+
 # base install only
 # sudo zypper in lxqt-about lxqt-common lxqt-config lxqt-globalkeys lxqt-notificationd lxqt-openssh-askpass lxqt-panel lxqt-policykit lxqt-powermanagement lxqt-qtplugin lxqt-runner lxqt-session openbox pcmanfm-qt qterminal
 
 # full install
 zypper info -t pattern lxqt
 sudo zypper in -t pattern lxqt
+
+# extras
+sudo zypper install x264 libx265-130 libx264-148 ffmpeg gstreamer-plugins-bad gstreamer-plugins-libav gstreamer-plugins-ugly tlp tlp-rdw
+sudo systemctl enable tlp
 
 # NEED TO LOOK UP
 # zathura notepadqq atom falkon spotify libreoffice calculator i3lock clang gwenview feh viewnor dunst racket crystal vlc lightdm kitty
