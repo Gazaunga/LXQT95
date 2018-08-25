@@ -26,4 +26,4 @@ zypper info -t pattern lxqt
 sudo zypper in -t pattern lxqt
 
 # NEED TO LOOK UP
-# zathura notepadqq atom falkon spotify libreoffice calculator i3lock
+# zathura notepadqq atom falkon spotify libreoffice calculator i3lock clang
