@@ -26,4 +26,4 @@ zypper info -t pattern lxqt
 sudo zypper in -t pattern lxqt
 
 # NEED TO LOOK UP
-# zathura
+# zathura notepadqq atom
