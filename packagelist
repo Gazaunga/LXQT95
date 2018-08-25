@@ -18,4 +18,9 @@ echo "┏━━━━━━━━━━━━━━━━━━━━━━━�
 echo "┃ Annoying starting animation ┃"
 echo "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"
 
-zypper in lxqt-about lxqt-common lxqt-config lxqt-globalkeys lxqt-notificationd lxqt-openssh-askpass lxqt-panel lxqt-policykit lxqt-powermanagement lxqt-qtplugin lxqt-runner lxqt-session openbox pcmanfm-qt qterminal
+# base install only
+# sudo zypper in lxqt-about lxqt-common lxqt-config lxqt-globalkeys lxqt-notificationd lxqt-openssh-askpass lxqt-panel lxqt-policykit lxqt-powermanagement lxqt-qtplugin lxqt-runner lxqt-session openbox pcmanfm-qt qterminal
+
+# full install
+zypper info -t pattern lxqt
+sudo zypper in -t pattern lxqt
